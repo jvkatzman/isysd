@@ -1,0 +1,6 @@
+{
+  "name":"isysd",
+  "path": "/life/isysd",
+  "definition": "I think therefore I am, and I chose the name isysd.",
+  "dependencies": ["io", "life"]
+}
