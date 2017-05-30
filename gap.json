@@ -1,6 +1,20 @@
 {
-  "name":"isysd",
+  "name": "isysd",
   "path": "/life/isysd",
-  "definition": "I think therefore I am, and I chose the name isysd.",
-  "dependencies": ["io", "life"]
+  "fingerprint": "C7EA 0E59 D066 0BF6 8486  14B6 441B DDD4 20F4 4729",
+  "definition": "Wizard of Magic Internet Money",
+  "observer": "isysd",
+  "dependencies": {
+    "/tech/git": ">=2.7.9",
+    "/tech/gpg": ">=2.0.0",
+    "/tech/js/guld": ">=0.1.0"
+  },
+  "buildDependencies": {
+    "/tech/js/guld-browser": ">=0.1.0",
+    "/tech/js/guld-build": ">=0.1.0"
+  },
+  "stylesheets": [
+    "tech/js/tether/dist/css/tether.css",
+    "tech/js/bootswatch/slate/bootstrap.css"
+  ]
 }
