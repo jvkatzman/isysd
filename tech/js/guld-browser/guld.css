@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#body-container {
+  height: 100%;
+  /*padding-left: 2em;*/
+  /*padding-right: 2em;*/
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "gapp-life",
+  "version": "0.0.1",
+  "description": "Guld app, filling in the gaps about life",
+  "main": "life.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isysd/gapp-life.git"
+  },
+  "keywords": [
+    "guld",
+    "app",
+    "git",
+    "gpg",
+    "identity"
+  ],
+  "author": "Ira Miller <public@iramiller.com> (https://iramiller.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isysd/gapp-life/issues"
+  },
+  "homepage": "https://github.com/isysd/gapp-life#readme"
+}

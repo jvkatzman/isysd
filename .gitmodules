@@ -1,0 +1,21 @@
+[submodule "tech/js/guld-host-github"]
+	path = tech/js/guld-host-github
+	url = https://github.com/isysd/guld-host-github.git
+[submodule "tech/js/guld-vrcave"]
+	path = tech/js/guld-vrcave
+	url = https://github.com/isysd/guld-vrcave.git
+[submodule "tech/gitguild"]
+	path = tech/gitguild
+	url = https://github.com/GitGuild/gitguild.git
+[submodule "tech/git"]
+	path = tech/git
+	url = https://github.com/git/git.git
+[submodule "tech/ledger"]
+	path = tech/ledger
+	url = https://github.com/ledger/ledger.git
+[submodule "io"]
+	path = io
+	url = https://github.com/isysd/io.git
+[submodule "io/web"]
+	path = io/web
+	url = https://github.com/isysd/isysd.github.io.git

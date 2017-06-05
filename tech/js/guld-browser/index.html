@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>var guld = require('../guld').Guld()</script>
+    <script>var gap = require('./gap.json')</script>
+    <script>document.write('<title>' + gap.name + '</title>')</script>
+    <script>
+      for (var s in gap.stylesheets) {
+        var line = '<link href="file://' + guld.PERSPECTIVE
+        line += gap.stylesheets[s] + '" rel="stylesheet" type="text/css">'
+        document.write(line)
+      }
+    </script>
+  </head>
+  <body>
+    <div class="row search-bar">
+      <div class="col-lg-6">
+        <div class="input-group">
+          <input type="text" class="form-control" id="search-form" placeholder="blocktree or url">
+          <span class="input-group-btn">
+            <button class="btn btn-default" id="search-btn" type="button">Explore!</button>
+          </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div><!-- /.row -->
+    <div id="gap" >
+    </div>
+  </body>
+  <script>window.$ = window.jQuery = require(path.join(guld.PERSPECTIVE, 'tech', 'js', 'jquery', 'dist', 'jquery.js'))</script>
+  <script src="tech/js/tether/dist/js/tether.js" type="application/JavaScript" />
+  <script src="tech/js/bootstrap/dist/js/bootstrap.js" type="application/JavaScript" />
+  <script>
+    import * as React from 'react'
+    import * as ReactDOM from 'react-dom'
+    ReactDOM.render("hello react", document.getElementById('gap'))
+  </script>
+  <script>
+    require('./renderer.js')
+  </script>
+</html>

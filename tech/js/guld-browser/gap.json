@@ -1,0 +1,18 @@
+{
+  "name":"guld-browser",
+  "path": "/tech/js/guld/electron",
+  "version": "0.1.0",
+  "definition": "A cross-platform browser to create and experience the blocktree with other guld members.",
+  "observer": "isysd",
+  "dependencies": {
+    "/tech/git": ">=2.7.9",
+    "/tech/gpg": ">=2.0.0",
+    "/tech/js/guld": ">=0.1.0"
+  },
+  "stylesheets": [
+    "tech/js/tether/dist/css/tether.css",
+    "tech/js/bootswatch/slate/bootstrap.css",
+    "tech/js/guld/electron/guld.css"
+  ],
+  "main": "electron ."
+}

@@ -1,0 +1,18 @@
+{
+  "name": "guld-browser",
+  "version": "0.1.0",
+  "description": "A browser for the guld blocktree.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/isysd/guld-browser",
+  "keywords": [
+    "Electron",
+    "guld",
+    "browser"
+  ],
+  "author": "isysd",
+  "license": "MIT",
+  "devDependencies": {}
+}

@@ -1,0 +1,19 @@
+{
+  "name":"guld-browser-intro",
+  "path": "/tech/js/guld/electron/intro",
+  "version": "0.1.0",
+  "definition": "An introduction to guld for the browser.",
+  "observer": "isysd",
+  "dependencies": {
+    "/tech/git": ">=2.7.9",
+    "/tech/gpg": ">=2.0.0",
+    "/tech/js/guld": ">=0.1.0",
+    "/tech/js/guld/electron": ">=0.1.0"
+  },
+  "stylesheets": [
+    "tech/js/tether/dist/css/tether.css",
+    "tech/js/bootswatch/slate/bootstrap.css",
+    "tech/js/guld/electron/guld.css"
+  ],
+  "main": "electron ."
+}

@@ -1,0 +1,9 @@
+{
+  "name":"gap",
+  "path": "/io/tech/js/gap",
+  "version": "0.0.1",
+  "definition": "Guld app, filling in the gaps",
+  "dependencies": {
+    "/io/tech/js": ">=0.0.1"
+  }
+}
