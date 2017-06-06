@@ -19,3 +19,39 @@
 [submodule "io/web"]
 	path = io/web
 	url = https://github.com/isysd/isysd.github.io.git
+[submodule "tech/js/bluebird"]
+	path = tech/js/bluebird
+	url = https://github.com/petkaantonov/bluebird.git
+[submodule "tech/js/aframe"]
+	path = tech/js/aframe
+	url = https://github.com/aframevr/aframe.git
+[submodule "tech/js/node-gitconfig"]
+	path = tech/js/node-gitconfig
+	url = https://github.com/okunishinishi/node-gitconfig.git
+[submodule "tech/js/marked"]
+	path = tech/js/marked
+	url = https://github.com/chjj/marked.git
+[submodule "tech/js/bootstrap"]
+	path = tech/js/bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "tech/js/bootswatch"]
+	path = tech/js/bootswatch
+	url = https://github.com/thomaspark/bootswatch.git
+[submodule "tech/js/fs-extra"]
+	path = tech/js/fs-extra
+	url = https://github.com/jprichardson/node-fs-extra
+[submodule "tech/js/jquery"]
+	path = tech/js/jquery
+	url = https://github.com/jquery/jquery.git
+[submodule "tech/js/mermaid"]
+	path = tech/js/mermaid
+	url = https://github.com/knsv/mermaid.git
+[submodule "tech/js/reveal.js"]
+	path = tech/js/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
+[submodule "tech/js/babel"]
+	path = tech/js/babel
+	url = https://github.com/babel/babel.git
+[submodule "tech/js/node-gpg"]
+	path = tech/js/node-gpg
+	url = https://github.com/isysd/node-gpg.git
