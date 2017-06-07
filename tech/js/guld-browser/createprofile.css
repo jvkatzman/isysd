@@ -1,0 +1,32 @@
+h1 {
+    font-family: sans-serif;
+    color:blue;
+    padding-left: 80px;
+}
+
+.tabletdright{
+    text-align: right;
+}
+
+.tabletdcenter{
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    padding: 20px 30px;
+    border: 0px; 
+    background: blue;
+    font-size:20px;
+    color: #fff;
+    border-radius: 4px;
+}
+.error{
+    font-size:20px;
+    color: red;
+}
+
+table{
+    width: 70%;
+    padding-left: 80px;
+}

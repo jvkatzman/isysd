@@ -6,7 +6,10 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/isysd/guld-browser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isysd/guld-browser.git"
+  },
   "keywords": [
     "Electron",
     "guld",
@@ -14,5 +17,14 @@
   ],
   "author": "isysd",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "electron": "^1.6.10"
+  },
+  "bugs": {
+    "url": "https://github.com/isysd/guld-browser/issues"
+  },
+  "homepage": "https://github.com/isysd/guld-browser#readme",
+  "dependencies": {
+    "node": "^0.0.0"
+  }
 }

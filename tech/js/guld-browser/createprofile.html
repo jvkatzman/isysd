@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="createprofile.css">
+
+    </head>
+    <body>
+        <h1> Create Profile From GitHub</h1>
+
+        <table >
+            <tr> 
+                <td class = "tabletdright" > Git Hub User Name:</td>
+                <td > <input type="text" id="githubUserID" class="input" value=""  placeholder="git hub User Id"/></td>
+            </tr>
+            <tr> 
+                <td class = "tabletdright"> Git Hub Password:</td>
+                <td> <input type="password" id="githubPassword" class="input" placeholder="git hub password"/></td>
+            </tr>     
+            <tr> 
+                <td class = "tabletdright"> Confirm Git Hub Password:</td>
+                <td> <input type="password" id="confirmGithubPassword" class="input" value="" placeholder="confirm git hub password"/></td>
+            </tr>  
+            <tr> </tr> 
+            <tr> </tr>
+            <tr>
+                <td colspan="2" ><button class="btn" id="createprofile"> Create a profile Based on GitHub User Information</button></td>
+            </tr>
+            <tr> </tr> 
+            <tr> </tr>
+            <tr>
+                <td colspan="2" tabletdcenter id="error" class="error" ></td>
+            </tr>        
+        </table>
+
+          <script>require('./createprofilerenderer')</script>
+    </body>
+</html>
